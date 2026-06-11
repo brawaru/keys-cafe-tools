@@ -1,0 +1,23 @@
+# Local working data and reverse-engineering material.
+# Keep the folder structure, but do not publish personal layouts, APKs,
+# decoded JSON, generated exports, or decompiled app files.
+/sources/*
+!/sources/.gitkeep
+
+/decoded/*
+!/decoded/.gitkeep
+
+/outputs/*
+!/outputs/.gitkeep
+
+/etc/*
+!/etc/.gitkeep
+
+# Local/editor noise.
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.env
+.env.*
+node_modules/
